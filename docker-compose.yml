@@ -2,15 +2,14 @@ version: '3'
 services:
   node:
     # Dockerfileの場所
-    build: 
+    build:
         context: ./
         dockerfile: ./Dockerfile
     working_dir: /var/project/ToDoApp
     # ホストOSとコンテナ内でソースコードを共有する
     volumes:
       - ./:/var/project/ToDoApp
-    # コンテナ内部の3000を外部から5000でアクセスする
+    # コンテナ内部の3000を外部から3000でアクセスする
     ports:
-      - 3000:3000
-    environment:
-      - HOST=0.0.0.0
+      - "3000:3000"
+    command: yarn dev
