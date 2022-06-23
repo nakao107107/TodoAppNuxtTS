@@ -7672,9 +7672,9 @@ shebang-regex@^3.0.0:
   integrity sha512-7++dFhtcx3353uBaq8DDR4NuxBetBzC7ZQOhmTQInHEd6bSrXdiEyzCvG07Z44UYdLShWUyXt5M/yhz8ekcb1A==
 
 shell-quote@^1.6.1:
-  version "1.7.2"
-  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.2.tgz#67a7d02c76c9da24f99d20808fcaded0e0e04be2"
-  integrity sha512-mRz/m/JVscCrkMyPqHc/bczi3OQHkLTqXHEFu0zDhK/qfv3UcOA4SVmRCLmos4bhjr9ekVQubj/R7waKapmiQg==
+  version "1.7.3"
+  resolved "https://registry.yarnpkg.com/shell-quote/-/shell-quote-1.7.3.tgz#aa40edac170445b9a431e17bb62c0b881b9c4123"
+  integrity sha512-Vpfqwm4EnqGdlsBFNmHhxhElJYrdfcxPThu+ryKS5J8L/fhAwLazFZtq+S+TWZ9ANj2piSQLGj6NQg+lKPmxrw==
 
 signal-exit@^3.0.2, signal-exit@^3.0.3:
   version "3.0.3"
@@ -8614,6 +8614,11 @@ vue-no-ssr@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/vue-no-ssr/-/vue-no-ssr-1.1.1.tgz#875f3be6fb0ae41568a837f3ac1a80eaa137b998"
   integrity sha512-ZMjqRpWabMPqPc7gIrG0Nw6vRf1+itwf0Itft7LbMXs2g3Zs/NFmevjZGN1x7K3Q95GmIjWbQZTVerxiBxI+0g==
+
+vue-property-decorator@^9.0.0:
+  version "9.1.2"
+  resolved "https://registry.yarnpkg.com/vue-property-decorator/-/vue-property-decorator-9.1.2.tgz#266a2eac61ba6527e2e68a6933cfb98fddab5457"
+  integrity sha512-xYA8MkZynPBGd/w5QFJ2d/NM0z/YeegMqYTphy7NJQXbZcuU6FC6AOdUAcy4SXP+YnkerC6AfH+ldg7PDk9ESQ==
 
 vue-router@^3.3.4:
   version "3.3.4"
